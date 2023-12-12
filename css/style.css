@@ -121,14 +121,14 @@ hr a:hover {
 /* media queries fpr responsiveness */
 
 /* screen with maximun width of 600 pixels */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	nav ul {
 		flex-direction: column;
 		align-items: center;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.portfolio-cards {
 		flex-direction: column;
 	}
